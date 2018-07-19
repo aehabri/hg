@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #fff;
+  color: #555;
+
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility; }
+body {
+
+  font-family: "LATO", "sans-serif";
+}
+.custom_row, .row_btn {
+
+  max-width: 1140px;
+  margin: 0 auto;
+  padding : 56px 0px;
+  margin : 0 auto;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(105, 142, 156, 0.4)), url("img/and.jpg");
+  height: 100vh;
+  margin-top: 0px;
+  background-size: cover;
+  background-position: center; }
+
+.headline {
+  width: 1440px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px; }
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 200%;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px; }
+
+h4 {
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+.button:link, .button:visited {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  border-style: solid;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.5s, color 0.5s, border 0.5s; }
+.button:hover, .button:active {
+  background-color: #4090CA; }
+
+.button-full:link, .button-full:visited {
+  background-color : #4090CA;
+  border: 1px solid #4090CA;
+  color: #fff;
+  margin-right: 15px; }
+
+.button-ghost:link, .button-ghost:visited {
+  border: 1px solid #fff;
+  color: #fff; }
+
+.button-full:hover, .button-full:active {
+  background-color: #4090CA;
+  border: 1px solid #4090CA;
+  color: #fff; }
+
+.test {
+  float: left;
+  text-align: center; }
+
+.button-ghost:hover, .button-ghost:active {
+  border: 1px solid #4090CA;
+  color: #fff; }
+
+.logo {
+  height: 70px;
+  width: auto;
+  float: left;
+  margin-top:-2%;
+  margin-left: -6%;
+
+  color: #fff; }
+
+  #textlogo {
+    display : inline;
+    font-size : 40px;
+  }
+
+
+.navigation-bar {
+  margin-left: 50%; }
+  .navigation-bar li {
+    display: inline-block;
+    color: #fff;
+    list-style-type: none;
+    margin-left: 40px;
+    float: right; }
+    .navigation-bar li a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 90%; }
+      .navigation-bar li a:hover {
+        color: #256ae8;
+
+      }
+
+}
+.wrapper {
+  background-color : red;
+  color : #fff;
+}
+
+.see {
+  background-color : #256ae8;
+  color : #fff;
+}
+#arrow {
+  margin-left: -105px;
+  color: #e67e22;
+  float: left;
+  margin-top: -80px; }
+
+.services {
+  font-family: "LATO", "sans-serif";
+  font-weight: 300;
+  font-size: 20px;
+  color: #000;
+   }
+
+.services-header {
+  margin-bottom: 50px; }
+.services h2 {
+  /*color : #e67e22;*/
+  color : #4090CA;
+
+}
+.section-padding {
+  padding: 56px 0px;
+  text-align: center; }
+
+
+
+.services hr {
+  width: 20%;
+  border-color: #4090CA;
+  margin-left: 40%; }
+
+.hidden {
+  opacity: 0; }
+
+.visible {
+  opacity: 1; }
+
+.serv1_img {
+  height : 300px;
+  width : 400px;
+  opacity: 0.7
+}
+.col-md-8 {
+  padding : 0px;
+}
+.no-gutter.row,
+.no-gutter.container,
+.no-gutter.container-fluid{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-gutter>[class^="col-"]{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.box {
+  height : 200px;
+  width: 200px;
+  background-color  : #393;
+  position : absolute;
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 3;
+
+
+}
+
+@keyframes slide {
+  0% {
+    transform : translate(0px,0px);
+  }
+  25% {
+    transform: translate(150px,0px);
+    animation-timing-function: linear;
+  }
+  50% {
+    transform: translate(300px,0px);
+    animation-timing-function: linear;
+  }
+  75% {
+    transform: translate(450,0px);
+  }
+  100% {
+    transform: translate(600px,0px);
+  }
+
+
+}
+#clients {
+
+}
+#clients h2{
+
+
+}
+#client-hr {
+
+  width: 80%;
+
+  margin : 0 auto;
+
+}
+.col-xl-4  img {
+
+  height : 240px;
+  width : auto;
+}
+#reviews{
+  background-color : #EEE;
+  height: 150px;
+  width : auto;
+}
+#clients hr {
+  width: 55%;
+  border-color: #4090CA;
+  margin-left: 22%;
+}
+.header {
+  margin-bottom: 50px;
+  text-align : center;
+  color :#4090CA;
+}
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,21 @@
+{
+  "name": "omnifood",
+  "authors": [
+    "sidou01 <sidou010@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "aos": "^2.3.2",
+    "animate.css": "^3.5.2"
+  }
+}
