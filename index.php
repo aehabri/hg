@@ -39,7 +39,7 @@ include "resources/includes/header.php";
       <div class="services-content">
         <div id = "serv1">
 
-            <div class="row">
+            <div class="row custom_row">
               <div class="col-md-8" style="text-align : left;" id ="serv1_content">
                 <h2>Order Food From home </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
@@ -53,7 +53,7 @@ include "resources/includes/header.php";
         </div>
         <div id="serv2">
           <div class="row">
-            <div class="col-md-4" id = "serv2_img">
+            <div class="col-md-4 custom_row" id = "serv2_img">
               <img src="resources/css/img/serv2.png" style="height : 280px; width : 400px;margin-top : -50px; "  alt="">
             </div>
 
@@ -67,7 +67,7 @@ include "resources/includes/header.php";
 
         <div id = "serv1">
 
-            <div class="row">
+            <div class="row custom_row">
               <div class="col-md-8" style="text-align : left;" id = "serv3_content">
                 <h2>Buy  from your favorite store </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
